@@ -12,6 +12,5 @@ phases:
     commands:
       - ng build -c production
 artifacts:
-  base-directory: dist/my-test-website
   files: 
     - '**/*'
