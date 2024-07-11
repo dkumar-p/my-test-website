@@ -2,13 +2,13 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 20
+      nodejs: latest
     commands:
       - npm install -g @angular/cli@17
   pre_build:
     commands:
       - npm install
-  builds:
+  build:
     commands:
       - ng build -c production
 artifacts:
